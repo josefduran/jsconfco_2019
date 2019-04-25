@@ -1,3 +1,31 @@
-html, body{
-    font-family: 'Space Mono', monospace;
+html,
+body {
+  font-family: "Space Mono", monospace;
+}
+
+.landing-wrapper {
+  max-width: 960px;
+}
+
+.landing-wrapper .header-wrapper {
+  text-align: left;
+  margin: 2em 10em 1em;
+}
+
+.landing-wrapper .speakers-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.landing-wrapper .speakers-wrapper .speakers-title {
+    margin: 2em 10em 1em;
+  }
+
+.landing-wrapper .speakers-wrapper .speakers-information {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
