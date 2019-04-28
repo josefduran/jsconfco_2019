@@ -2,10 +2,19 @@
   "name": "jsconfco_2019",
   "version": "1.0.0",
   "description": "Web page JSConfCO 2019",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "test"
+    "start": "node index.js",
+  },
+  "now": {
+    "version": 2,
+    "name": "jsconfco",
+    "builds": [
+      {
+        "src": "index.js",
+        "use": "@now/node"
+      }
+    ]
   },
   "repository": {
     "type": "git",
@@ -22,7 +31,6 @@
   "homepage": "https://github.com/coljs/jsconfco_2019#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "superagent": "^5.0.2"
+    "express": "^4.16.4"
   }
 }

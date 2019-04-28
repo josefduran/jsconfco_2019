@@ -1,13 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>JSConfCO 2019</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
-    <h1>JSCONF 2019</h1>
+  <div class="landing-wrapper">
+
+    <sidebar class="sidebar">
+      <div class="sidebar-container"></div>
+        <div class="sidebar__wrapper">
+          <ul class="sidebar__list">
+            <li class="sidebar__list-item active"><a class="sidebar__link" href="#main">TOP</a></li>
+            <li class="sidebar__list-item"><a class="sidebar__link" href="#speakers">SPEAKERS</a></li>
+            <li class="sidebar__list-item"><a class="sidebar__link" href="#sponsorship">SPONSORSHIP</a></li>
+            <li class="sidebar__list-item"><a class="sidebar__link" href="#contact">STAY TUNED</a></li>
+          </ul>
+        </div>
+      </div>
+    </sidebar>
+
+    <div class="page-section" id="main">
+      <div class="ribbon">
+        <img src="assets/svg/ribbon.svg" alt="JSConf Colombia">
+      </div>
+      <div class="details m-l p-t">
+        <h1>October 18th & 19th, 2019</h1>
+        <span>Medellín, Colombia</span>
+        <div class="next p-t">
+          <a href="#speakers"><img src="assets/svg/arrow-nav.svg" alt="Go to sponsorship"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-section" id="speakers">
+      <div class="m-l p-t">
+        <h1>Speakers</h1>
+      </div>
+
+      <div class="hide-xs">
+        <div class='center'>
+          <div class="speakers-information">
+            <img class="speaker-picture" src="./assets//img/evaferreira92.jpg" alt="Eva Ferreira" />
+            <div class="speaker-description">
+              <span class="speaker-name">Eva Ferreira</span>
+              <span class="speaker-username">
+                <a href="https://twitter.com/evaferreira92" target="_blank">@evaferreira92</a>
+              </span>
+            </div>
+          </div>
+
+          <div class="speaker-information">
+            <div class="speaker-description">
+              <span class="speaker-name">Juan Herrera</span>
+              <span class="speaker-username">
+                <a href="https://twitter.com/jdjuan" target="_blank">@jdjuan</a>
+              </span>
+            </div>
+            <img class="speaker-picture" src="./assets/img/jdjuan.jpg" alt="Juan Herrera" />
+          </div>
+
+          <div class="speaker-information">
+            <img class="speaker-picture" src="./assets/img/co_constanza.jpg" alt="Constanza Yáñez Calderón" />
+            <div class="speaker-description">
+              <span class="speaker-name">Constanza Yáñez Calderón</span>
+              <span class="speaker-username">
+                <a href="https://twitter.com/co_constanza" target="_blank">@co_constanza</a>
+              </span>
+            </div>
+          </div>
+
+          <div class="speaker-information">
+            <div class="speaker-description">
+              <span class="speaker-name">Jerome Hardaway</span>
+              <span class="speaker-username">
+                <a href="https://twitter.com/JeromeHardaway" target="_blank">@JeromeHardaway</a>
+              </span>
+            </div>
+            <img class="speaker-picture" src="./assets/img/JeromeHardaway.jpg" alt="Jerome Hardaway" />
+          </div>
+
+          <div class="speaker-information">
+            <img class="speaker-picture" src="./assets/img/nebrius.jpg" alt="Bryan Hughes" />
+            <div class="speaker-description">
+              <span class="speaker-name">Bryan Hughes</span>
+              <span class="speaker-username">
+                <a href="https://twitter.com/nebrius" target="_blank">@nebrius</a>
+              </span>
+            </div>
+          </div>
+
+          <div class="speaker-information">
+            <div class="speaker-description">
+              <span class="speaker-name">Jessica Lord</span>
+              <span class="speaker-username">
+                <a href="https://twitter.com/jllord" target="_blank">@jllord</a>
+              </span>
+            </div>
+            <img class="speaker-picture" src="./assets/img/jllord.jpg" alt="Jessica Lord" />
+          </div>
+        </div>
+      </div>
+
+      <div class="hide-xl">
+        <div class='center'>
+          <div class="speakers-information">
+            <img class="speaker-picture" src="./assets//img/evaferreira92.jpg" alt="Eva Ferreira" />
+            <div class="speaker-description">
+              <span class="speaker-name">Eva Ferreira</span>
+              <span class="speaker-username">
+                <a href="https://twitter.com/evaferreira92" target="_blank">@evaferreira92</a>
+              </span>
+            </div>
+          </div>
+
+          <div class="speaker-information">
+            <div class="speaker-description">
+              <span class="speaker-name">Juan Herrera</span>
+              <span class="speaker-username">
+                <a href="https://twitter.com/jdjuan" target="_blank">@jdjuan</a>
+              </span>
+            </div>
+            <img class="speaker-picture" src="./assets/img/jdjuan.jpg" alt="Juan Herrera" />
+          </div>
+
+          <div class="speaker-information">
+            <img class="speaker-picture" src="./assets/img/co_constanza.jpg" alt="Constanza Yáñez Calderón" />
+            <div class="speaker-description">
+              <span class="speaker-name">Constanza Yáñez Calderón</span>
+              <span class="speaker-username">
+                <a href="https://twitter.com/co_constanza" target="_blank">@co_constanza</a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class='center'>
+          <div class="speaker-information">
+            <img class="speaker-picture" src="./assets/img/JeromeHardaway.jpg" alt="Jerome Hardaway" />
+            <div class="speaker-description">
+              <span class="speaker-name">Jerome Hardaway</span>
+              <span class="speaker-username">
+                <a href="https://twitter.com/JeromeHardaway" target="_blank">@JeromeHardaway</a>
+              </span>
+            </div>
+          </div>
+
+          <div class="speaker-information">
+            <div class="speaker-description">
+              <span class="speaker-name">Bryan Hughes</span>
+              <span class="speaker-username">
+                <a href="https://twitter.com/nebrius" target="_blank">@nebrius</a>
+              </span>
+            </div>
+            <img class="speaker-picture" src="./assets/img/nebrius.jpg" alt="Bryan Hughes" />
+          </div>
+
+          <div class="speaker-information">
+            <img class="speaker-picture" src="./assets/img/jllord.jpg" alt="Jessica Lord" />
+            <div class="speaker-description">
+                <span class="speaker-name">Jessica Lord</span>
+                <span class="speaker-username">
+                  <a href="https://twitter.com/jllord" target="_blank">@jllord</a>
+                </span>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="next m-l p-t">
+        <a href="#sponsorship"><img src="assets/svg/arrow-nav.svg" alt="Go to speakers"></a>
+      </div>
+    </div>
+
+    <div class="page-section" id="sponsorship">
+      <div class="m-l p-t m-r">
+        <h1>Want to be a sponsor?</h1>
+        <p>
+          Find new talent and connect with our dev communities! We use several media channels after and before the event
+          to reach more than 10000 people worldwide. Our audience is captive and they want to hear what we have to say.
+        </p>
+        <p>
+          To sign up for a sponsorship slot
+          or if you have any questions
+          regarding sponsorship, contact us
+          at <a href="" target="_blank">hola@jsconf.co</a>
+        </p>
+        <div class="m-t">
+          <a href="assets/pdf/prospectumJSConfCO2019.pdf" target="_blank" class='button'>Download our brief
+            <img src="assets/SVG/arrow-button.svg" alt="">
+          </a>
+        </div>
+
+        <div class="next p-t details">
+          <a href="#contact"><img src="assets/svg/arrow-nav-blue.svg" alt="Stay tuned"></a>
+        </div>
+      </div>
+    </div>
+    <div class="page-section" id="contact">
+      <div class="m-l p-t">
+        <h1>Stay tuned</h1>
+        <!-- Begin Mailchimp Signup Form -->
+        <div id="mc_embed_signup">
+          <form action="https://jsconf.us2.list-manage.com/subscribe/post?u=69218559b03fdf4ec80ae278a&amp;id=a6426be338"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+            novalidate>
+            <div id="mc_embed_signup_scroll">
+              <label for="mce-EMAIL">Subscribe to our newsletter to stay informed about us.</label>
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your email..." required>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_69218559b03fdf4ec80ae278a_a6426be338"
+                  tabindex="-1" value=""></div>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+          </form>
+        </div>
+
+        <!--End mc_embed_signup-->
+
+        <div class="social-networks p-t">
+          <h2>Follow us!</h2>
+          <a href="https://twitter.com/jsconfco" target="_blank"><img src="assets/SVG/twitter.svg" class="twitter" alt="twitter"></a>
+          <a href="https://www.youtube.com/channel/UCIK8anLUIq0PHurZzNWe6IQ" target="_blank"><img class="youtube" src="assets/SVG/youtube.svg"
+              alt="youtube"></a>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
-</html>
+<script src="js/main.js"></script>
