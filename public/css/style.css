@@ -109,9 +109,37 @@ h1{
   left: 0;
 }
 
+.cls-1{
+  fill:#fff;
+}
+
+.ribbon .cls-6, #sponsorship .details .cls-1{
+  fill:#2a00ff;
+}
+
 .ribbon{
   margin-left: 350px;
   max-width: 339px;
+}
+
+.ribbon .cls-2{
+  fill:#ea5d5c;
+}
+
+.ribbon .cls-3{
+  fill:#ede15a;
+}
+
+.ribbon .cls-4{
+  fill:#b4ae34;
+}
+
+.ribbon .cls-5{
+  fill:#c94446;
+}
+
+.ribbon .cls-7{
+  fill:#272c3e;
 }
 
 .page-section{
@@ -203,7 +231,7 @@ img.speaker-picture, .speaker-description {
   cursor: pointer;
 }
 
-.button img{
+.button svg{
   width: 15px;
   margin-top: 6px
 }
