@@ -147,6 +147,10 @@ h1{
   height: 100vh;
 }
 
+.page-section-contact{
+  align-items: center;
+}
+
 #main{
   background-image: url('../assets/img/bg1.png');
   background-size: cover;
@@ -198,6 +202,21 @@ img.speaker-picture, .speaker-description {
   height: 180px;
 }
 
+.slides-title {
+  padding: 3em 0 1em;
+  margin: 0;
+}
+
+.slides {
+  text-align: center;
+}
+
+img.slides-picture {
+  width: 700px;
+  height: 435px;
+}
+
+
 .center {
   /* display: grid; */
   grid-template-columns: repeat(auto-fill, minmax(180px, 0fr));
@@ -242,6 +261,7 @@ img.speaker-picture, .speaker-description {
   background-size: cover;
   background-position: right;
   background-repeat: repeat-x no-repeat;
+  height: 130%;
 }
 
 #mc_embed_signup {
@@ -367,10 +387,6 @@ hr {
   display: none;
 }
 
-.footer {
-  margin: 5em 0 0;
-}
-
 hr {
   height: 1px;
   background-color: #fff;
@@ -400,7 +416,7 @@ hr {
   }
 
   .p-t{
-    padding-top: 100px;
+    padding-top: 10px;
   }
 
   h1{
@@ -412,10 +428,11 @@ hr {
     height: 50%;
   }
 
-  img.slides {
-    width: 50%;
-    height: 50%;
+  img.slides-picture {
+    width: 100%;
+    height: 100%;
   }
+
 
   .hide-xs{
     display: none;
