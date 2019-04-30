@@ -240,6 +240,8 @@ img.speaker-picture, .speaker-description {
 #contact{
   background-image: url('../assets/img/bg3.png');
   background-size: cover;
+  background-position: right;
+  background-repeat: repeat-x no-repeat;
 }
 
 #mc_embed_signup {
@@ -365,6 +367,16 @@ hr {
   display: none;
 }
 
+.footer {
+  margin: 5em 0 0;
+}
+
+hr {
+  height: 1px;
+  background-color: #fff;
+  width: 38%;
+}
+
 
 /* Media queries */
 
@@ -388,7 +400,7 @@ hr {
   }
 
   .p-t{
-    padding-top: 20px;
+    padding-top: 100px;
   }
 
   h1{
@@ -396,8 +408,13 @@ hr {
   }
 
   img.speaker-picture, .speaker-description {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
+  }
+
+  img.slides {
+    width: 50%;
+    height: 50%;
   }
 
   .hide-xs{
