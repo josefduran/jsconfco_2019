@@ -36,7 +36,7 @@ h1{
 
 .sidebar ul{
   position: fixed;
-  overflow-x: hidden;
+  overflow: hidden;
   list-style-type: none;
 }
 
@@ -328,9 +328,9 @@ img.slides-picture {
 #mc_embed_signup div#mce-responses {float:left;
   top:-1.4em;
   padding:0em .5em 0em .5em;
-  overflow:hidden;
+  overflow :hidden;
   width:90%;
- margin: 0 5%;
+  margin: 0 5%;
   clear: both;
 }
 #mc_embed_signup div.response {margin:1em 0;
