@@ -352,19 +352,18 @@ hr {
   vertical-align: middle;
 }
 
-.social-networks .twitter{
+.social-networks .twitter svg{
   height: 50px;
   margin-right: 10px;
 }
 
-.social-networks .youtube{
+.social-networks .youtube svg{
   height: 40px;
 }
 
 .hide-xl{
   display: none;
 }
-
 
 /* Media queries */
 
