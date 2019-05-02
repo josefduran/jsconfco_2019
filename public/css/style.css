@@ -207,6 +207,10 @@ img.speaker-picture, .speaker-description {
   margin: 0;
 }
 
+.slides-title a:link, .slides-title a:visited{
+  color: #fff;
+}
+
 .slides {
   text-align: center;
 }
@@ -374,12 +378,12 @@ hr {
   vertical-align: middle;
 }
 
-.social-networks .twitter{
+.social-networks .twitter svg{
   height: 50px;
   margin-right: 10px;
 }
 
-.social-networks .youtube{
+.social-networks .youtube svg{
   height: 40px;
 }
 
