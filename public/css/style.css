@@ -488,6 +488,11 @@ hr {
   .next{
     display: none;
   }
+
+  #main .next{
+    margin-top: 20px;
+    display: block;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
